@@ -9,5 +9,7 @@ int main() {
     printf("Ingrese el segundo numero: ");
     scanf("%lf", &num2);
 
+    printf("Suma: %.2lf\n", num1 + num2);
+
     return 0;
 }
