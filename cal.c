@@ -13,5 +13,11 @@ int main() {
     printf("Resta: %.2lf\n", num1 - num2);
     printf("Multiplicacion: %.2lf\n", num1 * num2);
 
+    if(num2 != 0) {
+        printf("Division: %.2lf\n", num1 / num2);
+    } else {
+        printf("No se puede dividir entre 0\n");
+    }
+
     return 0;
 }
