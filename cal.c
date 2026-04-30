@@ -11,6 +11,7 @@ int main() {
 
     printf("Suma: %.2lf\n", num1 + num2);
     printf("Resta: %.2lf\n", num1 - num2);
+    printf("Multiplicacion: %.2lf\n", num1 * num2);
 
     return 0;
 }
