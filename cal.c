@@ -16,6 +16,7 @@ int main() {
 
     if(num2 != 0) {
         printf("Division: %.2lf\n", num1 / num2);
+        printf("Residuo: %.2lf\n", fmod(num1, num2));
     } else {
         printf("No se puede dividir entre 0\n");
     }
