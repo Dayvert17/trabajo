@@ -10,6 +10,7 @@ int main() {
     scanf("%lf", &num2);
 
     printf("Suma: %.2lf\n", num1 + num2);
+    printf("Resta: %.2lf\n", num1 - num2);
 
     return 0;
 }
