@@ -23,5 +23,13 @@ int main() {
 
     printf("Potencia: %.2lf\n", pow(num1, num2));
 
+    if(num1 > num2) {
+        printf("El primero es mayor\n");
+    } else if(num1 < num2) {
+        printf("El segundo es mayor\n");
+    } else {
+        printf("Son iguales\n");
+    }
+
     return 0;
 }
