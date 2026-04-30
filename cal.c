@@ -31,5 +31,15 @@ int main() {
         printf("Son iguales\n");
     }
 
+    int inicio = (int)(num1 < num2 ? num1 : num2);
+    int fin = (int)(num1 > num2 ? num1 : num2);
+
+    printf("Numeros entre ellos:\n");
+    for(int i = inicio + 1; i < fin; i++) {
+        printf("%d ", i);
+    }
+
+    printf("\n");
+
     return 0;
 }
